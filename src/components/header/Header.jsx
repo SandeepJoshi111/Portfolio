@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import './header.css'
 import CTA from './CTA'
 import ME from '../../assest/me.png'
@@ -13,6 +13,9 @@ const Header = () => {
   useEffect(()=>{
     AOS.init({duration:2000});
   },[]);
+
+ 
+
   return (
     <header>
       <div className="container header__container">
@@ -43,18 +46,29 @@ const Header = () => {
 
         <CTA/>
         <HeaderSocial/>
-        <Dark/>
 
         {/* <div className="me">
           <img src={ME} alt="" />
         </div> */}
 
         <a href="#contact" className='scroll__down' >Scroll Down</a>
+        
+        <Dark/>
+
+       
+
+        
+
 
       </div>
   
+
+       
+
+  
     </header>
       
+     
   )
  
 }

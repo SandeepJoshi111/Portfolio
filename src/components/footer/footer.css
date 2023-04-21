@@ -78,6 +78,7 @@ footer a{
     animation: logo 3s 1;
     border-radius: 50%;
     margin-top: 2rem;
-    background: var(--color-bg);
+    background: var(--color-logo);
     overflow: hidden;
+    
 }

@@ -151,20 +151,18 @@ p{
     animation: scroll 4s 1;
 }
 
-.dark{
+#icon{
     position: absolute;
     right: 0;
     bottom: 10rem;
     animation: darkscroll 4s 1;
-    border-radius: 50%;
-    background: transparent;
     color: var(--color-primary);
+    background: transparent;
+    cursor: pointer;
+    
 
 }
-.dark a.active{
-    background: var(--color-primary);
-    color: var(--color-light);
-}
+
 @keyframes darkscroll {
     0%{
         bottom: 15rem;
@@ -193,6 +191,7 @@ p{
    .header__container{
     padding: 14rem 0 0 0;
    }
+
 }
 
 
@@ -212,5 +211,12 @@ p{
     }
     .header__container h5{
         font-size: 1rem;
+    }
+
+    #icon{
+        top: 3rem;
+        display: flex;
+        
+        
     }
 }
