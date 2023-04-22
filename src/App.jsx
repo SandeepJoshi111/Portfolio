@@ -7,7 +7,6 @@ import Services from './components/services/Services'
 import Portfolio from './components/portfolio/Portfolio'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
-import Dark from './components/header/Dark'
 
 
 const App = () => {

@@ -42,6 +42,7 @@ const Header = () => {
           repeat={Infinity}
           />
           </div>
+          <br />
           <p>Thank you for taking the time to look at my <span>portfolio.</span></p>
 
         <CTA/>

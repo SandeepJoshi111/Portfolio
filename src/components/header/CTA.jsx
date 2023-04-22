@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import CV from '../../assest/cv.pdf'
+import CV from '../../assest/Cv.pdf'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 const CTA = () => {

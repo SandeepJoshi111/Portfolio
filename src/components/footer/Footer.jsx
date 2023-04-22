@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import './footer.css'
 import {BsFacebook} from 'react-icons/bs'
 import {BsInstagram} from 'react-icons/bs'
-import {BsTwitter} from 'react-icons/bs'
+import {BsGithub} from 'react-icons/bs'
 import {BsLinkedin} from 'react-icons/bs'
 import LOGO from '../../assest/3d-removebg-preview.png'
 import AOS from 'aos'
@@ -28,10 +28,10 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials" data-aos="fade-up" data-aos-duration="2000">
-        <a href=""><BsFacebook/></a>
-        <a href=""><BsInstagram/></a>
-        <a href=""><BsTwitter/></a>
-        <a href=""><BsLinkedin/></a>
+        <a href="https://www.facebook.com/profile.php?id=100005611095592" target='_blank'><BsFacebook/></a>
+        <a href="https://www.instagram.com/josh_sandip/" target='_blank'><BsInstagram/></a>
+        <a href="https://www.linkedin.com/in/sandeep-joshi-90210a24a/" target='_blank'><BsGithub/></a>
+        <a href="https://www.linkedin.com/in/sandeep-joshi-90210a24a/" target='_blank'><BsLinkedin/></a>
       </div>
 
       <div className="footer__copyright" data-aos="zoom-in" data-aos-duration="2000">

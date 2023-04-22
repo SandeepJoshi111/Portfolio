@@ -9,13 +9,13 @@ const Dark = () => {
   return (
         <div>
             <div>
-                {isActive? <BsFillSunFill id='icon' 
+                {isActive? <BsFillMoonFill id='icon'  
                 onClick={()=>{
                     setIsActive(!isActive)
                     document.body.classList.toggle("light-theme")
                 }}/>:
 
-                <BsFillMoonFill id='icon' onClick={()=>{
+                <BsFillSunFill id='icon' onClick={()=>{
                     setIsActive(!isActive)
                     document.body.classList.toggle("light-theme")
                 }}/>

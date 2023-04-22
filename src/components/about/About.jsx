@@ -24,7 +24,7 @@ const About = () => {
             several years and am presently pursuing a degree for Computer Science and Information technology.
           </p>
 
-          <a href="#contact" className="btn btn-primary" data-aos="fade-up" data-aos-duration="2000">
+          <a href="#contact" className='btn btn-primary' data-aos="fade-up" data-aos-duration="2000">
             Let's Talk
           </a>
           <div className="about__cards " data-aos="zoom-in" data-aos-duration="1000">

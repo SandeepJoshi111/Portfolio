@@ -12,10 +12,10 @@ const HeaderSocial = () => {
   },[]);
   return (
     <div className="header__social" data-aos="fade-down">
-        <a href="https://linkedin.com" target='_blank' id='linkedin'><BsLinkedin/></a>
-        <a href="https://github.com" target='_blank' id='github'><BsGithub/></a>
-        <a href="https://github.com" target='_blank' id='facebook'><BsFacebook/></a>
-        <a href="https://github.com" target='_blank' id='instagram'><BsInstagram/></a>
+        <a href="https://www.facebook.com/profile.php?id=100005611095592" target='_blank' id='facebook'><BsFacebook/></a>
+        <a href="https://www.instagram.com/josh_sandip/" target='_blank' id='instagram'><BsInstagram/></a>
+        <a href="https://github.com/SandeepJoshi111" target='_blank' id='github'><BsGithub/></a>
+        <a href="https://www.linkedin.com/in/sandeep-joshi-90210a24a/" target='_blank' id='linkedin'><BsLinkedin/></a>
 
 
     </div>

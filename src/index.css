@@ -37,10 +37,10 @@
     --container-width-md:86%;
     --container-width-ms:90%;
 
-    --color-bg: #fbf8f8;
-    --color-bg-variant:#c6d0d7;
-    --color-primary: #176ba7;
-    --color-primary-variant: rgba(77,181,255,0.8);
+    --color-bg: #F6F5F5;
+    --color-bg-variant:#D3E0EA;
+    --color-primary: #276678;
+    --color-primary-variant: #1687A7;
     --color-white: #000;
     --color-light:rgba(24, 22, 22, 0.789);
     --color-logo:#000;
@@ -62,7 +62,10 @@ body{
     color: var(--color-white);
     line-height: 1.7;
     background-image: url(../src/assest/bg-texture.png);
+    transition: all 400ms ease-in-out;
 }
+
+
 
 
 /* General Container */
