@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import './portfolio.css'
-import IMG1 from '../../assest/portfolio1.jpg'
+import IMG1 from '../../assest/jottin app.png'
 import IMG2 from '../../assest/portfolio2.jpg'
 import IMG3 from '../../assest/portfolio3.jpg'
 import AOS from 'aos'
@@ -19,10 +19,11 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG1} alt="" />
           </div>
-            <h3>Title</h3>
+            <h3>JOTTIN APP</h3>
+            <p>A Note App where you can jot down anything</p>
             <div className="portfolio__item-cta">
             
-            <a href="https://github.com"  className='btn btn-primary' target='_blank'>View Project</a>
+            <a href="https://sandeepjoshi111.github.io/note-app/"  className='btn btn-primary' target='_blank'>View Project</a>
             </div>
         </article>
 
@@ -30,7 +31,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG2} alt="" />
           </div>
-            <h3>Title</h3>
+            <h3>Blender Website</h3>
             <div className="portfolio__item-cta">
             
             <a href="https://github.com"  className='btn btn-primary' target='_blank'>View Project</a>
@@ -41,7 +42,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG3} alt="" />
           </div>
-            <h3>Title</h3>
+            <h3>Weather App</h3>
             <div className="portfolio__item-cta">
             
             <a href="https://github.com"  className='btn btn-primary' target='_blank'>View Project</a>

@@ -35,7 +35,7 @@ const Footer = () => {
       </div>
 
       <div className="footer__copyright" data-aos="zoom-in" data-aos-duration="2000">
-        <small>&copy; EGTOR Tutorials. All right reserved</small>
+        <small>&copy; Designed by EGTOR.</small>
       </div>
     </footer>
   )
