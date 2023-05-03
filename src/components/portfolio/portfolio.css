@@ -24,7 +24,7 @@
 
 .portfolio__item-image{
     border-radius: 1.5rem;
-    height: 27rem;
+    height: 20rem;
     overflow: hidden;
 }
 
@@ -59,28 +59,18 @@
     justify-content: center;
 }
 
-@media screen and (max-width:1924px){
+@media screen and (max-width:1624px){
     .portfolio__container{
 
         grid-template-columns: repeat(2,1fr);
         gap: 1.5rem;
     }
     .portfolio__item-image{
-        height: 17rem;
+        height: 14rem;
     }
 
  }
- @media screen and (max-width:1224px){
-    .portfolio__container{
 
-        grid-template-columns: repeat(2,1fr);
-        gap: 1.5rem;
-    }
-    .portfolio__item-image{
-        height: 12rem;
-    }
-
- }
  
  
  @media screen and (max-width:700px){
