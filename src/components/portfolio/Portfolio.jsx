@@ -31,7 +31,7 @@ const Portfolio = () => {
           <p>A Note Platform where you can jot down anything</p>
           <div className="portfolio__item-cta">
             <a
-              href="https://sandeepjoshi111.github.io/note-app/"
+              href="https://jottin.vercel.app/"
               className="btn btn-primary portfolio-btn"
               target="_blank"
             >
@@ -100,7 +100,7 @@ const Portfolio = () => {
           </p>
           <div className="portfolio__item-cta">
             <a
-              href="https://weatherwiz.vercel.app/"
+              href="https://healthcarenepal.vercel.app/"
               className="btn btn-primary portfolio-btn "
               target="_blank"
             >

@@ -15,6 +15,7 @@
   border: 1px solid transparent;
   transition: var(--trasition) !important;
   min-height: 500px;
+
 }
 
 .portfolio__item:hover {
