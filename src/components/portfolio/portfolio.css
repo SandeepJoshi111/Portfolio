@@ -15,7 +15,6 @@
   border: 1px solid transparent;
   transition: var(--trasition) !important;
   min-height: 500px;
-
 }
 
 .portfolio__item:hover {
@@ -59,7 +58,7 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 1624px) {
+@media screen and (max-width: 1024px) {
   .portfolio__container {
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
