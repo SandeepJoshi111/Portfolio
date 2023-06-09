@@ -1,8 +1,9 @@
 import React, { useEffect } from "react";
 import "./portfolio.css";
-import IMG1 from "../../assest/jottin app.png";
-import IMG2 from "../../assest/jottin app.png";
+import IMG1 from "../../assest/Jottin.svg";
+import IMG2 from "../../assest/3D Workshop.svg";
 import IMG3 from "../../assest/Weather Wiz.svg";
+import IMG4 from "../../assest/Health Care Nepal.svg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 const Portfolio = () => {
@@ -90,7 +91,7 @@ const Portfolio = () => {
           data-aos-duration="2000"
         >
           <div className="portfolio__item-image">
-            <img src={IMG3} alt="" />
+            <img src={IMG4} alt="" />
           </div>
           <h3>Health Care Nepal</h3>
           <p>
