@@ -27,7 +27,9 @@ const About = () => {
           <p data-aos="fade-up" data-aos-duration="1000">
             I`ve been learning web design, 3D modeling and Game Development for
             several years and am presently pursuing a degree for Computer
-            Science and Information technology.
+            Science and Information technology. I am always looking for new
+            challednges and opportunities to learn.I love being able to use my
+            passion and creativity to uplift a business and achieve their goals.
           </p>
 
           <a
