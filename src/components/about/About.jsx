@@ -8,6 +8,13 @@ import { SiJavascript } from "react-icons/si";
 import { SiUnity } from "react-icons/si";
 import { SiReact } from "react-icons/si";
 import { FaLaravel } from "react-icons/fa";
+import { BsWordpress } from "react-icons/bs";
+import { FaPhp } from "react-icons/fa";
+import { SiVisualstudiocode } from "react-icons/si";
+import { SiUnrealengine } from "react-icons/si";
+import { AiFillGithub } from "react-icons/ai";
+import { SiMysql } from "react-icons/si";
+import { SiFirebase } from "react-icons/si";
 import AOS from "aos";
 
 const About = () => {
@@ -46,38 +53,62 @@ const About = () => {
             data-aos-duration="1000"
           >
             <article className="about__card">
-              <SiHtml5 className="about__icon" />
-              <h5>HTML</h5>
+              <SiHtml5 className="about__icon" title="HTML" />
             </article>
 
             <article className="about__card">
-              <SiCss3 className="about__icon" />
-              <h5>CSS</h5>
+              <SiCss3 className="about__icon" title="CSS" />
             </article>
 
             <article className="about__card">
-              <SiJavascript className="about__icon" />
-              <h5>Javascript</h5>
+              <SiJavascript className="about__icon" title="Javascript" />
             </article>
 
             <article className="about__card">
-              <SiReact className="about__icon" />
-              <h5>React</h5>
+              <SiReact className="about__icon" title="React" />
             </article>
 
             <article className="about__card">
-              <SiUnity className="about__icon" />
-              <h5>Unity</h5>
+              <SiUnity className="about__icon" title="Unity" />
             </article>
 
             <article className="about__card">
-              <SiBlender className="about__icon" />
-              <h5>Blender</h5>
+              <SiBlender className="about__icon" title="Blender" />
             </article>
 
             <article className="about__card">
-              <FaLaravel className="about__icon" />
-              <h5>Laravel</h5>
+              <FaLaravel className="about__icon" title="Laravel" />
+            </article>
+
+            <article className="about__card">
+              <BsWordpress className="about__icon" title="Word Press" />
+            </article>
+
+            <article className="about__card">
+              <FaPhp className="about__icon" title="PHP" />
+            </article>
+
+            <article className="about__card">
+              <SiVisualstudiocode
+                className="about__icon"
+                title="Visual Studio Code"
+              />
+            </article>
+
+            <article className="about__card">
+              <SiUnrealengine className="about__icon" title="Unreal Engine" />
+            </article>
+
+            <article className="about__card">
+              <AiFillGithub className="about__icon" title="Git Hub" />
+            </article>
+
+            <article className="about__card">
+              <SiMysql className="about__icon" title="MySQL" />
+            </article>
+
+            <article className="about__card">
+              <SiFirebase className="about__icon" title="Firebase" />
             </article>
           </div>
         </div>

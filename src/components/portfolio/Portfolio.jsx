@@ -26,18 +26,98 @@ const Portfolio = () => {
           data-aos-duration="2000"
         >
           <div className="portfolio__item-image">
+            <img src={IMG4} alt="" />
+          </div>
+
+          <div className="portfolio__item-body">
+            <h3>Health Care Nepal</h3>
+            <p>
+              {" "}
+              Find Support, Guidance, and Healing through our Comprehensive
+              Online Mental Health Platform."
+            </p>
+            <div className="portfolio__item-cta">
+              <a
+                href="https://github.com/SandeepJoshi111/project-app"
+                className="btn btn-primary portfolio-btn "
+                target="_blank"
+                id="portfolio-btn"
+              >
+                Git Hub
+              </a>
+              <a
+                href="https://healthcarenepal.vercel.app/"
+                className="btn btn-primary portfolio-btn "
+                target="_blank"
+                id="portfolio-btn"
+              >
+                View Project
+              </a>
+            </div>
+          </div>
+        </article>
+        <article
+          className="portfolio__item"
+          data-aos="zoom-out"
+          data-aos-duration="2000"
+        >
+          <div className="portfolio__item-image">
+            <img src={IMG3} alt="" />
+          </div>
+
+          <div className="portfolio__item-body">
+            <h3>Weather Wiz</h3>
+            <p>Forecast Your World with Weather Wiz</p>
+            <div className="portfolio__item-cta">
+              <a
+                href="https://github.com/SandeepJoshi111/weather-wiz"
+                className="btn btn-primary portfolio-btn "
+                id="portfolio-btn"
+                target="_blank"
+              >
+                Git Hub
+              </a>
+              <a
+                href="https://weatherwiz.vercel.app/"
+                className="btn btn-primary portfolio-btn "
+                id="portfolio-btn"
+                target="_blank"
+              >
+                View Project
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article
+          className="portfolio__item"
+          data-aos="zoom-out"
+          data-aos-duration="2000"
+        >
+          <div className="portfolio__item-image">
             <img src={IMG1} alt="" />
           </div>
-          <h3>Jottin App</h3>
-          <p>A Note Platform where you can jot down anything</p>
-          <div className="portfolio__item-cta">
-            <a
-              href="https://jottin.vercel.app/"
-              className="btn btn-primary portfolio-btn"
-              target="_blank"
-            >
-              View Project
-            </a>
+          <div className="portfolio__item-body">
+            <h3>Jottin</h3>
+            <p>A Note Platform where you can jot down anything</p>
+            <div className="portfolio__item-cta">
+              <a
+                href="https://github.com/SandeepJoshi111/note-app"
+                className="btn btn-primary portfolio-btn "
+                target="_blank"
+                id="portfolio-btn"
+              >
+                Git Hub
+              </a>
+              <a
+                href="https://jottin.vercel.app/"
+                className="btn btn-primary portfolio-btn"
+                target="_blank"
+                id="portfolio-btn"
+              >
+                View Project
+              </a>
+            </div>
           </div>
         </article>
 
@@ -49,64 +129,30 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG2} alt="" />
           </div>
-          <h3>Blender Website</h3>
-          <p>
-            Explore, Inspire, and Showcase Your Blender Models on our Platform
-          </p>
-          <div className="portfolio__item-cta">
-            <a
-              href="https://3dworkshop.vercel.app/"
-              className="btn btn-primary portfolio-btn"
-              target="_blank"
-            >
-              View Project
-            </a>
-          </div>
-        </article>
 
-        <article
-          className="portfolio__item"
-          data-aos="zoom-out"
-          data-aos-duration="2000"
-        >
-          <div className="portfolio__item-image">
-            <img src={IMG3} alt="" />
-          </div>
-          <h3>Weather Wiz</h3>
-          <p>Forecast Your World with Weather Wiz</p>
-          <div className="portfolio__item-cta">
-            <a
-              href="https://weatherwiz.vercel.app/"
-              className="btn btn-primary portfolio-btn "
-              target="_blank"
-            >
-              View Project
-            </a>
-          </div>
-        </article>
-
-        <article
-          className="portfolio__item"
-          data-aos="zoom-out"
-          data-aos-duration="2000"
-        >
-          <div className="portfolio__item-image">
-            <img src={IMG4} alt="" />
-          </div>
-          <h3>Health Care Nepal</h3>
-          <p>
-            {" "}
-            Find Support, Guidance, and Healing through our Comprehensive Online
-            Mental Health Platform."
-          </p>
-          <div className="portfolio__item-cta">
-            <a
-              href="https://healthcarenepal.vercel.app/"
-              className="btn btn-primary portfolio-btn "
-              target="_blank"
-            >
-              View Project
-            </a>
+          <div className="portfolio__item-body">
+            <h3>Blender Website</h3>
+            <p>
+              Explore, Inspire, and Showcase Your Blender Models on our Platform
+            </p>
+            <div className="portfolio__item-cta">
+              <a
+                href="https://github.com/SandeepJoshi111/blender-app"
+                className="btn btn-primary portfolio-btn "
+                id="portfolio-btn"
+                target="_blank"
+              >
+                Git Hub
+              </a>
+              <a
+                href="https://3dworkshop.vercel.app/"
+                className="btn btn-primary portfolio-btn"
+                id="portfolio-btn"
+                target="_blank"
+              >
+                View Project
+              </a>
+            </div>
           </div>
         </article>
       </div>
