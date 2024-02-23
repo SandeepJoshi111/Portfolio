@@ -5,6 +5,7 @@ import IMG2 from "../../assest/3D Workshop.svg";
 import IMG3 from "../../assest/Weather Wiz.svg";
 import IMG4 from "../../assest/Health Care Nepal.svg";
 import IMG5 from "../../assest/Wave Assult.png";
+import IMG6 from "../../assest/asl.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 const Portfolio = () => {
@@ -174,6 +175,34 @@ const Portfolio = () => {
             <div className="portfolio__item-cta">
               <a
                 href="https://github.com/SandeepJoshi111/Wave-Assault"
+                className="btn btn-primary portfolio-btn "
+                id="portfolio-btn"
+                target="_blank"
+              >
+                Git Hub
+              </a>
+            </div>
+          </div>
+        </article>
+
+
+        <article
+          className="portfolio__item"
+          data-aos="zoom-out"
+          data-aos-duration="2000"
+        >
+          <div className="portfolio__item-image">
+            <img src={IMG6} alt="" />
+          </div>
+
+          <div className="portfolio__item-body">
+            <h3>Americal Sign Language Detection</h3>
+            <p>
+              Created a Sign Language detection that does basic arithmetic operations.
+            </p>
+            <div className="portfolio__item-cta">
+              <a
+                href="https://github.com/SandeepJoshi111/American-Sign-Language-Detection"
                 className="btn btn-primary portfolio-btn "
                 id="portfolio-btn"
                 target="_blank"
