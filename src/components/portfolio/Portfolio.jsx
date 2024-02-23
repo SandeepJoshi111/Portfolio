@@ -4,6 +4,7 @@ import IMG1 from "../../assest/Jottin.svg";
 import IMG2 from "../../assest/3D Workshop.svg";
 import IMG3 from "../../assest/Weather Wiz.svg";
 import IMG4 from "../../assest/Health Care Nepal.svg";
+import IMG5 from "../../assest/Wave Assult.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 const Portfolio = () => {
@@ -133,7 +134,7 @@ const Portfolio = () => {
           <div className="portfolio__item-body">
             <h3>Blender Website</h3>
             <p>
-              Explore, Inspire, and Showcase Your Blender Models on our Platform
+              A website to showcase some blender model.
             </p>
             <div className="portfolio__item-cta">
               <a
@@ -151,6 +152,33 @@ const Portfolio = () => {
                 target="_blank"
               >
                 View Project
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article
+          className="portfolio__item"
+          data-aos="zoom-out"
+          data-aos-duration="2000"
+        >
+          <div className="portfolio__item-image">
+            <img src={IMG5} alt="" />
+          </div>
+
+          <div className="portfolio__item-body">
+            <h3>Wave Assault</h3>
+            <p>
+            Survival game built using Unreal Engine, where players must endure relentless waves of challenges and enemies in a hostile environment
+            </p>
+            <div className="portfolio__item-cta">
+              <a
+                href="https://github.com/SandeepJoshi111/Wave-Assault"
+                className="btn btn-primary portfolio-btn "
+                id="portfolio-btn"
+                target="_blank"
+              >
+                Git Hub
               </a>
             </div>
           </div>

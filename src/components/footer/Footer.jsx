@@ -63,7 +63,7 @@ const Footer = () => {
         data-aos="zoom-in"
         data-aos-duration="2000"
       >
-        <small>&copy; Designed by EGTOR.</small>
+        {/* <small>&copy; Designed by EGTOR.</small> */}
       </div>
     </footer>
   );
