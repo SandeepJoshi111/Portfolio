@@ -74,17 +74,16 @@
   margin: -1rem 2rem 0 2rem;
   align-items: center;
 }
-
 .tools__container {
   display: flex;
   position: absolute;
+  width: 50%; /* Adjusted width for responsiveness */
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   justify-content: center;
   align-items: center;
   margin-top: 4rem;
-
 }
 
 .tool__box {
@@ -92,9 +91,11 @@
   background-color: var(--color-bg-variant);
   border-radius: 2rem;
   color: var(--color-primary);
+  width: 100%; /* Adjusted width for responsiveness */
   width: max-content;
   padding: .2rem 1rem;
-  margin: 0 0.2rem; 
+  margin: 0 0.2rem;
+  word-wrap: break-word; /* Allow text to wrap onto the next line */ 
 }
 
 /* Ensure each tool is displayed in a separate box */
@@ -126,22 +127,87 @@
   gap: 1rem;
 }
 
-@media screen and (max-width: 1024px) {
-  .portfolio__container {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
+@media screen and (max-width: 1300px){
+  .tools__container {
+    visibility: hidden;
   }
-  .portfolio__item-image {
-    height: 14rem;
+  .tool__box {
+    visibility: hidden;
   }
 }
 
-@media screen and (max-width: 700px) {
-  .portfolio__container {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
+@media screen and (max-width: 1024px) {
+  .portfolio__item-body {
+    width: 50%;
   }
-  .portfolio__item-image {
-    height: 17rem;
+  .portfolio__item:nth-child(odd) .portfolio__item-body {
+    right: 0rem;
+  }
+  .portfolio__item:nth-child(even) .portfolio__item-body {
+    left: 0rem;
+  }
+  .portfolio__item-image img {
+    transform: scale(1);
+    width: 50%;
+  }
+  
+  .portfolio__item:nth-child(odd) .portfolio__item-image img {
+    left: 0rem;
+  
+  }
+  .portfolio__item:nth-child(even) .portfolio__item-image img {
+    right: 0rem;
+  }
+  .portfolio__item h3 {
+    margin: 1rem 0 .8rem;
+    font-size: 1.5rem;
+  }
+  .portfolio__item p {
+    font-size: 14px;
+    margin: -1.5rem 1rem 0 1rem;
+  }
+  
+  .tools__container {
+    visibility: hidden;
+  }
+  .tool__box {
+    visibility: hidden;
+  }
+  
+}
+
+
+@media screen and (max-width: 700px) {
+  .portfolio__item {
+    height: 450px;
+    width: auto;
+  }
+  .portfolio__item-body {
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+  }
+  .portfolio__item-image img {
+    transform: scale(1);
+    width: 100%;
+    height: 50%;
+  }
+  .portfolio__item h3 {
+    margin: 1rem 0 .8rem;
+    font-size: 1.5rem;
+  }
+  .portfolio__item p {
+    font-size: 14px;
+    margin: -1.5rem 1rem 0 1rem;
+  }
+  
+  .tools__container {
+    visibility: hidden;
+  }
+  .tool__box {
+    visibility: hidden;
+  }
+  .portfolio__item-cta {
+    margin-top: 5.5rem;
   }
 }
