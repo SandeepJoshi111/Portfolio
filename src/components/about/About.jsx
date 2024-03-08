@@ -1,20 +1,40 @@
 import React from "react";
 import { useEffect } from "react";
 import "./about.css";
-import { SiBlender } from "react-icons/si";
+import { FaBootstrap } from "react-icons/fa";
+import { SiTailwindcss } from "react-icons/si";
 import { SiHtml5 } from "react-icons/si";
 import { SiCss3 } from "react-icons/si";
-import { SiJavascript } from "react-icons/si";
-import { SiUnity } from "react-icons/si";
 import { SiReact } from "react-icons/si";
-import { FaLaravel } from "react-icons/fa";
-import { BsWordpress } from "react-icons/bs";
-import { FaPhp } from "react-icons/fa";
-import { SiVisualstudiocode } from "react-icons/si";
+import { BsGithub, BsWordpress } from "react-icons/bs";
+
+import { FaPython } from "react-icons/fa";
+import { SiJavascript } from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa";
+import { SiExpress } from "react-icons/si";
+
+import { SiJupyter } from "react-icons/si";
+import { SiKeras } from "react-icons/si";
+import { SiTensorflow } from "react-icons/si";
+
+// Designing
+import { SiAdobeillustrator } from "react-icons/si";
+import { IoLogoFigma } from "react-icons/io5";
+import { SiBlender } from "react-icons/si";
+
+// Gamde Development
 import { SiUnrealengine } from "react-icons/si";
-import { AiFillGithub } from "react-icons/ai";
+import { SiUnity } from "react-icons/si";
+
+// Productivity
+import { SiVisualstudiocode } from "react-icons/si";
+
+// Databases
+import { FaLaravel } from "react-icons/fa";
+import { FaPhp } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
 import { SiFirebase } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
 import AOS from "aos";
 
 const About = () => {
@@ -32,11 +52,13 @@ const About = () => {
         </h2>
         <div className="about__content">
           <p data-aos="fade-up" data-aos-duration="1000">
-            I`ve been learning web design, 3D modeling and Game Development for
-            several years and am presently pursuing a degree for Computer
-            Science and Information technology. I am always looking for new
-            challednges and opportunities to learn.I love being able to use my
-            passion and creativity to uplift a business and achieve their goals.
+            Welcome to my portfolio! My name is Sandeep, and I'm a passionate
+            and dedicated 3D Artist, Web Designer with a love for creativity and
+            innovation. With several years of experience in the field. I
+            embarked on my journey in 2020 when I discovered my fascination for
+            web deisgning and 3D modeling. Since then, I've been having fun
+            improving my skills by countless hours of learning, experimenting,
+            and pushing boundaries to deliver exceptional results.
           </p>
 
           <a
@@ -49,67 +71,143 @@ const About = () => {
           </a>
           <div
             className="about__cards "
-            data-aos="zoom-in"
-            data-aos-duration="1000"
           >
-            <article className="about__card">
-              <SiHtml5 className="about__icon" title="HTML" />
-            </article>
+            <div className="front"             
+            data-aos="zoom-in"
+            data-aos-duration="1000">
+              <p id="names">Frontend Centric</p>
+     
+              <article className="about__card">
+                <div className="about__item">
+                  <SiHtml5 className="about__icon" title="HTMl" />HTMl
+                </div>
+                <div className="about__item">
+                  <SiCss3 className="about__icon" title="CSS" />CSS
+                </div>
+                <div className="about__item">
+                  <SiReact className="about__icon" title="React" />React
+                </div>
+                <div className="about__item">
+                  <SiTailwindcss className="about__icon" title="Tailwindcss" />Tailwindcss
+                </div>
+                <div className="about__item">
+                  <FaBootstrap className="about__icon" title="Bootstrap" />Bootstrap
+                </div>
+                <div className="about__item">
+                  <BsWordpress className="about__icon" title="Worppress" />Worppress
+                </div>
+              </article>
+            </div>
 
-            <article className="about__card">
-              <SiCss3 className="about__icon" title="CSS" />
-            </article>
+            <div className="front"
+                 data-aos="zoom-in"
+            data-aos-duration="1000">
+              <p id="names">Backend Centric</p>
+  
+              <article className="about__card">
+                <div className="about__item">
+                  <SiJavascript className="about__icon" title="JavaScript" />JavaScript
+                </div>
+                <div className="about__item">
+                  <FaPython className="about__icon" title="Python" />Python
+                </div>
+                <div className="about__item">
+                  <FaNodeJs className="about__icon" title="Node.js" />Node.js
+                </div>
+                <div className="about__item">
+                  <SiExpress className="about__icon" title="Express" />Express
+                </div>
+              </article>
+            </div>
+            <div className="front"
+                 data-aos="zoom-in"
+            data-aos-duration="1000">
+              <p id="names">Designing</p>
 
-            <article className="about__card">
-              <SiJavascript className="about__icon" title="Javascript" />
-            </article>
+              <article className="about__card">
+                <div className="about__item">
+                  <SiBlender className="about__icon" title="Blender" />Blender
+                </div>
+                <div className="about__item">
+                  <SiAdobeillustrator className="about__icon" title="Adobe Illutrator" />Adobe Illutrator
+                </div>
+                <div className="about__item">
+                  <IoLogoFigma className="about__icon" title="Figma" />Figma
+                </div>
+              </article>
+            </div>
 
-            <article className="about__card">
-              <SiReact className="about__icon" title="React" />
-            </article>
+            <div className="front"
+                 data-aos="zoom-in"
+            data-aos-duration="1000">
+              <p id="names">Databases</p>
 
-            <article className="about__card">
-              <SiUnity className="about__icon" title="Unity" />
-            </article>
+              <article className="about__card">
+                <div className="about__item">
+                  <FaLaravel className="about__icon" title="Laravel" />Laravel
+                </div>
+                <div className="about__item">
+                  <FaPhp className="about__icon" title="PHP" />PHP
+                </div>
+                <div className="about__item">
+                  <SiMysql className="about__icon" title="MySql" />MySql
+                </div>
+                <div className="about__item">
+                  <SiFirebase className="about__icon" title="Firebase" />Firebase
+                </div>
+                <div className="about__item">
+                  <SiMongodb className="about__icon" title="MongoDB" />MongoDB
+                </div>
+              </article>
+            </div>
 
-            <article className="about__card">
-              <SiBlender className="about__icon" title="Blender" />
-            </article>
+            <div className="front"
+                 data-aos="zoom-in"
+            data-aos-duration="1000">
+              <p id="names">Data Science</p>
 
-            <article className="about__card">
-              <FaLaravel className="about__icon" title="Laravel" />
-            </article>
+              <article className="about__card">
+                <div className="about__item">
+                  <SiJupyter className="about__icon" title="Jupyter" />Jupyter
+                </div>
+                <div className="about__item">
+                  <SiKeras className="about__icon" title="Keras" />Keras
+                </div>
+                <div className="about__item">
+                  <SiTensorflow className="about__icon" title="Tensorflow" />Tensorflow
+                </div>
+              </article>
+            </div>
 
-            <article className="about__card">
-              <BsWordpress className="about__icon" title="Word Press" />
-            </article>
+            <div className="front"
+                 data-aos="zoom-in"
+            data-aos-duration="1000">
+              <p id="names">Game Development</p>
 
-            <article className="about__card">
-              <FaPhp className="about__icon" title="PHP" />
-            </article>
+              <article className="about__card">
+                <div className="about__item">
+                  <SiUnity className="about__icon" title="Unity" />Unity
+                </div>
+                <div className="about__item">
+                  <SiUnrealengine className="about__icon" title="Unreal Engine" />Unreal Engine
+                </div>
+              </article>
+            </div>
 
-            <article className="about__card">
-              <SiVisualstudiocode
-                className="about__icon"
-                title="Visual Studio Code"
-              />
-            </article>
+            <div className="front"     
+            data-aos="zoom-in"
+            data-aos-duration="1000">
+              <p id="names">Productivity</p>
 
-            <article className="about__card">
-              <SiUnrealengine className="about__icon" title="Unreal Engine" />
-            </article>
-
-            <article className="about__card">
-              <AiFillGithub className="about__icon" title="Git Hub" />
-            </article>
-
-            <article className="about__card">
-              <SiMysql className="about__icon" title="MySQL" />
-            </article>
-
-            <article className="about__card">
-              <SiFirebase className="about__icon" title="Firebase" />
-            </article>
+              <article className="about__card">
+                <div className="about__item">
+                  <SiVisualstudiocode className="about__icon" title="VS Code" />VS Code
+                </div>
+                <div className="about__item">
+                  <BsGithub className="about__icon" title="Github" />Github
+                </div>
+              </article>
+            </div>
           </div>
         </div>
       </div>
