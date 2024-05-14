@@ -1,5 +1,5 @@
 #about {
-  height: 150vh;
+  height: 120vh;
 }
 
 .about__container h2 {
@@ -25,7 +25,6 @@
 }
 
 #names {
-
   padding: 0.5rem;
   top: -2rem;
   font-size: 1.5rem;
@@ -33,15 +32,13 @@
   position: absolute;
 }
 
-
-
 .about__card {
   position: absolute;
   top: 45%;
   display: grid;
-  grid-template-columns: .5fr 1fr;
-  gap: .5rem;
-  margin-top: -2rem;
+  grid-template-columns: 0.5fr 1fr;
+  gap: 0.5rem;
+  margin-top: -2.5rem;
   align-items: center;
   justify-content: center;
 }
@@ -53,17 +50,12 @@
 }
 
 .about__icon {
-  margin-right: 0.5rem; /* Add spacing between icon and text */
-  font-size: 1.5rem; /* Adjust icon size */
-}
-
-.about__icon {
+  margin-right: 0.5rem;
   color: var(--color-primary);
-  font-size: 2rem;
+  font-size: 1.5rem;
   cursor: pointer;
   align-items: center;
 }
-
 
 .about__card h5 {
   font-size: 1rem;
@@ -94,7 +86,7 @@
   }
 
   .about__card {
-    grid-template-columns: .5fr 1fr;
+    grid-template-columns: 0.5fr 1fr;
   }
 }
 
@@ -102,13 +94,13 @@
   #about {
     height: 300vh;
   }
-  
+
   .about__cards {
     grid-template-columns: repeat(1, 1fr);
     gap: 1rem;
   }
 
   .about__card {
-    grid-template-columns: .5fr 1fr;
+    grid-template-columns: 0.5fr 1fr;
   }
 }

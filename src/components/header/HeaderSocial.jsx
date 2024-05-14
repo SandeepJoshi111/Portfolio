@@ -13,6 +13,13 @@ const HeaderSocial = () => {
   return (
     <div className="header__social" data-aos="fade-down">
       <a
+        href="https://www.linkedin.com/in/sandeep-joshi-893a8b292/"
+        target="_blank"
+        id="linkedin"
+      >
+        <BsLinkedin />
+      </a>
+      <a
         href="https://www.facebook.com/profile.php?id=100005611095592"
         target="_blank"
         id="facebook"

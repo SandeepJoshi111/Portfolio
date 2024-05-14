@@ -56,6 +56,12 @@ const Footer = () => {
         >
           <BsGithub />
         </a>
+        <a
+          href="https://www.linkedin.com/in/sandeep-joshi-893a8b292/"
+          target="_blank"
+        >
+          <BsLinkedin />
+        </a>
       </div>
 
       <div

@@ -26,14 +26,7 @@ const Header = () => {
         <div data-aos="zoom-out-down" data-aos-duration="8000">
           <span className="text-light">A </span>
           <TypeAnimation
-            sequence={[
-              "Game Developer",
-              2000,
-              "Web Designer",
-              2000,
-              "3D Artist",
-              2000,
-            ]}
+            sequence={["Web Developer", 2000, "3D Artist", 2000]}
             speed={50}
             className="text-light"
             wrapper="span"
