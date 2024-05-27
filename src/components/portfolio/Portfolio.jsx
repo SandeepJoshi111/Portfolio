@@ -6,6 +6,7 @@ import "aos/dist/aos.css";
 import { BsGithub } from "react-icons/bs";
 import { CiShare1 } from "react-icons/ci";
 import { portfolios } from "../../constant/portfolio";
+import { Link } from "react-router-dom";
 
 const Portfolio = () => {
   useEffect(() => {
@@ -30,7 +31,11 @@ const Portfolio = () => {
             key={index}
           >
             <div className="portfolio__item-image">
-              <img src={portfolio.image} alt="" />
+              <Link
+                to={`/${portfolio.title.toLowerCase().replace(/\s+/g, "-")}`}
+              >
+                <img src={portfolio.image} alt="" />
+              </Link>
             </div>
 
             <div className="portfolio__item-body">

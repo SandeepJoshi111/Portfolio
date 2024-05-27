@@ -10,6 +10,7 @@ import { IoLogoFigma } from "react-icons/io5";
 import {
   SiAdobeillustrator,
   SiBlender,
+  SiChakraui,
   SiCss3,
   SiExpress,
   SiFirebase,
@@ -55,6 +56,7 @@ export const abouts = [
       { name: "Blender", icon: <SiBlender /> },
       { name: "Adobe Illutrator", icon: <SiAdobeillustrator /> },
       { name: "Figma", icon: <IoLogoFigma /> },
+      { name: "Chakra", icon: <SiChakraui /> },
     ],
   },
   {

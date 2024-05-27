@@ -11,10 +11,10 @@ const CTA = () => {
     <div className="cta" data-aos="fade-up" data-aos-duration="2000">
       <a
         href={CV}
-        target="_blank"
         className="btn"
-        title="Sandeep CV.pdf"
-        rel="noreferrer"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="Sandeep Resume"
       >
         Download CV
       </a>
