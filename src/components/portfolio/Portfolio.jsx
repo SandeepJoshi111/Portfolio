@@ -39,7 +39,11 @@ const Portfolio = () => {
                 to={`/${portfolio.title.toLowerCase().replace(/\s+/g, "-")}`}
                 onClick={handleLinkClick}
               >
-                <img src={portfolio.image} alt="" />
+                <img
+                  src={portfolio.image}
+                  alt=""
+                  className="transform scale-50"
+                />
               </Link>
             </div>
 

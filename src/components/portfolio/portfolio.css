@@ -43,7 +43,7 @@
   transition: var(--trasition);
   width: 50%;
   height: 100%;
-  object-fit: cover;
+  object-fit: fill;
   cursor: pointer;
 }
 

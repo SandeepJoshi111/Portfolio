@@ -1,10 +1,17 @@
-import { FaLaravel, FaPhp, FaPython, FaReact } from "react-icons/fa";
+import {
+  FaLaravel,
+  FaPhp,
+  FaPython,
+  FaReact,
+  FaWordpress,
+} from "react-icons/fa";
 import { IoLogoFirebase } from "react-icons/io5";
-import IMG1 from "../assest/Health Care Nepal.svg";
-import IMG2 from "../assest/bakespace mockup.png";
+import IMG1 from "../assest/hcn.png";
+// import IMG2 from "../assest/bakespace mockup.png";
 // import IMG3 from "../assest/Wave Assult.png";
-import IMG4 from "../assest/ASL mockup.png";
-import IMG5 from "../assest/Glimmer-mockup.png";
+import IMG4 from "../assest/asl.png";
+import IMG5 from "../assest/glimmerr.png";
+import IMG6 from "../assest/gharkarma.png";
 import VID from "../assest/Sign Language Final Vid.mp4";
 import {
   SiJupyter,
@@ -178,6 +185,39 @@ export const portfolios = [
         featureTitle: "Ambulance",
         featureDesc:
           "Users can easily search and filter ambulances based on locations provided with phonenumbers",
+      },
+    ],
+  },
+  {
+    title: "Ghar Karma",
+    description:
+      "GharKarma is a platform offering comprehensive services in luxury property design, Vastu consultation, and interior design, we create spaces that blend opulence with functionality, adhering to the principles of Vastu Shastra for harmonious living.",
+    introduction:
+      "At GharKarma, we are dedicated to transforming your vision of luxury living into reality. Our platform offers a comprehensive suite of services encompassing luxury property design, Vastu consultation, and interior design. We specialize in creating spaces that seamlessly blend opulence with functionality, while adhering to the time-honored principles of Vastu Shastra for harmonious living.",
+    image: IMG6,
+    tools: [{ name: "WordPress", icon: <FaWordpress /> }],
+    links: [
+      {
+        github: "",
+        demo: "https://gharkarma.com/",
+      },
+    ],
+    video: "",
+    features: [
+      {
+        featureTitle: "Luxury Property Design",
+        featureDesc:
+          "Access a curated selection of design templates specifically tailored for luxury properties, including lavish residences.",
+      },
+      {
+        featureTitle: "Vastu Consultation",
+        featureDesc:
+          "Users can access Vastu tips and recommendations by hovering over relevant elements or sections within the application.",
+      },
+      {
+        featureTitle: "Interior Design",
+        featureDesc:
+          "Transform your living spaces with personalized style and functionality through curated inspiration, expert advice, and innovative tools for visualizing and realizing your dream home aesthetic.",
       },
     ],
   },
