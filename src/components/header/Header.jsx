@@ -35,7 +35,10 @@ const Header = () => {
         </div>
         <br />
         <p>
-          Thank you for taking the time to look at my <span>portfolio.</span>
+          Thank you for taking the time to look at my{" "}
+          <a href="#portfolio" className="cursor-pointer">
+            portfolio.
+          </a>
         </p>
 
         <CTA />
