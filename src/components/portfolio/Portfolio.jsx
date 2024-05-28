@@ -62,14 +62,16 @@ const Portfolio = () => {
               </div>
 
               <div className="portfolio__item-cta">
-                <a
-                  href={portfolio.links[0].github}
-                  target="_blank"
-                  id="portfolio-btn"
-                  rel="noreferrer"
-                >
-                  Code <BsGithub />
-                </a>
+                {portfolio.links[0].github && (
+                  <a
+                    href={portfolio.links[0].github}
+                    target="_blank"
+                    id="portfolio-btn"
+                    rel="noreferrer"
+                  >
+                    Code <BsGithub />
+                  </a>
+                )}
                 {portfolio.links[0].demo && (
                   <a
                     href={portfolio.links[0].demo}
