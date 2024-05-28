@@ -6,12 +6,11 @@ import {
   FaWordpress,
 } from "react-icons/fa";
 import { IoLogoFirebase } from "react-icons/io5";
-import IMG1 from "../assest/hcn.png";
+import IMG1 from "../assest/glimmerr.png";
+import IMG3 from "../assest/hcn.png";
 // import IMG2 from "../assest/bakespace mockup.png";
-// import IMG3 from "../assest/Wave Assult.png";
-import IMG4 from "../assest/asl.png";
-import IMG5 from "../assest/glimmerr.png";
-import IMG6 from "../assest/gharkarma.png";
+import IMG2 from "../assest/asl.png";
+import IMG4 from "../assest/gharkarma.png";
 import VID from "../assest/Sign Language Final Vid.mp4";
 import {
   SiJupyter,
@@ -30,7 +29,7 @@ export const portfolios = [
       "An interactive social media platform designed like, comment and follow each individual and post about glamorous content.",
     introduction:
       "Glimmerr is an innovative social media platform designed to celebrate and share glamorous content. This interactive platform connects users who are passionate about fashion, beauty, lifestyle, and all things glamorous. With Glimmerr, users can create stunning posts, engage with like-minded individuals, and follow the latest trends in the world of glamour.",
-    image: IMG5,
+    image: IMG1,
     tools: [
       { name: "React", icon: <FaReact /> },
       { name: "Firebase", icon: <IoLogoFirebase /> },
@@ -79,7 +78,7 @@ export const portfolios = [
       "An interactive platform designed to communicate with diffrently abled people using American Sign Language. Additionally, the platform offers the ability to perform basic mathematical calculations.",
     introduction:
       "ASL Connect is an innovative interactive platform designed to facilitate communication with differently-abled individuals using American Sign Language (ASL). The platform leverages advanced AI technology to detect and interpret ASL in real-time, providing seamless communication for users. In addition to its core communication features, ASL Connect offers the ability to perform basic mathematical calculations, making it a versatile tool for both everyday interactions and educational purposes.",
-    image: IMG4,
+    image: IMG2,
     tools: [
       { name: "Python", icon: <FaPython /> },
       { name: "OpenCV", icon: <SiOpencv /> },
@@ -129,26 +128,14 @@ export const portfolios = [
   //     },
   //   ],
   // },
-  // {
-  //   title: "Wave Assault",
-  //   description:
-  //     "Wave Assault is a competitive, wave-based game where players engage in combat until they successfully navigate through each wave, striving to survive until the end.",
-  //   image: IMG3,
-  //   tools: [{ name: "Unreal Engine ", icon: <SiUnrealengine /> }],
-  //   links: [
-  //     {
-  //       github: "https://github.com/SandeepJoshi111/Wave-Assault",
-  //       demo: "",
-  //     },
-  //   ],
-  // },
+
   {
     title: "Health Care Nepal",
     description:
       "Health Care Nepal is a platform dedicated to mental health, assisting individuals in finding the therapist they need and offering real-time chat functionality for communication.",
     introduction:
       "Health Care Nepal is a groundbreaking platform dedicated to providing mental health support and assistance to individuals in Nepal. With a focus on addressing the growing mental health challenges in the country, this platform serves as a vital resource for finding qualified therapists and accessing real-time chat functionality for communication.",
-    image: IMG1,
+    image: IMG3,
     tools: [
       { name: "React", icon: <FaReact /> },
       { name: "Firebase", icon: <IoLogoFirebase /> },
@@ -191,10 +178,10 @@ export const portfolios = [
   {
     title: "Ghar Karma",
     description:
-      "GharKarma is a platform offering comprehensive services in luxury property design, Vastu consultation, and interior design, we create spaces that blend opulence with functionality, adhering to the principles of Vastu Shastra for harmonious living.",
+      "GharKarma is a WordPress website I developed as a freelancer. It serves as a platform for various home services, connecting service providers with customers seeking assistance for their household needs.",
     introduction:
       "At GharKarma, we are dedicated to transforming your vision of luxury living into reality. Our platform offers a comprehensive suite of services encompassing luxury property design, Vastu consultation, and interior design. We specialize in creating spaces that seamlessly blend opulence with functionality, while adhering to the time-honored principles of Vastu Shastra for harmonious living.",
-    image: IMG6,
+    image: IMG4,
     tools: [{ name: "WordPress", icon: <FaWordpress /> }],
     links: [
       {
