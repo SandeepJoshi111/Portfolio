@@ -13,6 +13,10 @@ const Portfolio = () => {
     AOS.init({ duration: 2000 });
   }, []);
 
+  const handleLinkClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <section id="portfolio">
       <h5 data-aos="zoom-in-down" data-aos-duration="700">
@@ -33,6 +37,7 @@ const Portfolio = () => {
             <div className="portfolio__item-image">
               <Link
                 to={`/${portfolio.title.toLowerCase().replace(/\s+/g, "-")}`}
+                onClick={handleLinkClick}
               >
                 <img src={portfolio.image} alt="" />
               </Link>
