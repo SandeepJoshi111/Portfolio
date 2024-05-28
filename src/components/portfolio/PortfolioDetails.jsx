@@ -26,14 +26,18 @@ function PortfolioDetails() {
               {portfolioItem.title}
             </h1>
             <div className="flex gap-5 ">
-              <a
-                href={portfolioItem.links[0].github}
-                target="_blank"
-                id="portfolio-btn"
-                rel="noreferrer"
-              >
-                Code <BsGithub />
-              </a>
+              {portfolioItem.links[0].github ? (
+                <a
+                  href={portfolioItem.links[0].github}
+                  target="_blank"
+                  id="portfolio-btn"
+                  rel="noreferrer"
+                >
+                  Code <BsGithub />
+                </a>
+              ) : (
+                ""
+              )}
             </div>
           </div>
           <h1 className="text-[20px] md:text-[30px] text-[#a5a5a5]">

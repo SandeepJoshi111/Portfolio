@@ -1,17 +1,5 @@
-import {
-  FaLaravel,
-  FaPhp,
-  FaPython,
-  FaReact,
-  FaWordpress,
-} from "react-icons/fa";
+import { FaPython, FaReact, FaWordpress } from "react-icons/fa";
 import { IoLogoFirebase } from "react-icons/io5";
-import IMG1 from "../assest/glimmerr.png";
-import IMG3 from "../assest/hcn.png";
-// import IMG2 from "../assest/bakespace mockup.png";
-import IMG2 from "../assest/asl.png";
-import IMG4 from "../assest/gharkarma.png";
-import VID from "../assest/Sign Language Final Vid.mp4";
 import {
   SiJupyter,
   SiKeras,
@@ -19,8 +7,13 @@ import {
   SiTensorflow,
   SiChakraui,
   SiTailwindcss,
-  // SiUnrealengine,
 } from "react-icons/si";
+import IMG1 from "../assest/glimmerr.png";
+import IMG3 from "../assest/hcn.png";
+// import IMG2 from "../assest/bakespace mockup.png";
+import IMG2 from "../assest/asl.png";
+import IMG4 from "../assest/gharkarma.png";
+import VID from "../assest/Sign Language Final Vid.mp4";
 
 export const portfolios = [
   {
@@ -112,22 +105,6 @@ export const portfolios = [
       },
     ],
   },
-  // {
-  //   title: "BakeSpace",
-  //   description:
-  //     " BackSpace is an online retail platform specializing in bakery items, offering features such as adding items to a cart and demo payment processing through integrated online payment systems.",
-  //   image: IMG2,
-  //   tools: [
-  //     { name: "Laravel", icon: <FaLaravel /> },
-  //     { name: "PHP", icon: <FaPhp /> },
-  //   ],
-  //   links: [
-  //     {
-  //       github: "https://github.com/SandeepJoshi111/BakeSpace",
-  //       demo: "",
-  //     },
-  //   ],
-  // },
 
   {
     title: "Health Care Nepal",
@@ -209,3 +186,20 @@ export const portfolios = [
     ],
   },
 ];
+
+// {
+//   title: "BakeSpace",
+//   description:
+//     " BackSpace is an online retail platform specializing in bakery items, offering features such as adding items to a cart and demo payment processing through integrated online payment systems.",
+//   image: IMG2,
+//   tools: [
+//     { name: "Laravel", icon: <FaLaravel /> },
+//     { name: "PHP", icon: <FaPhp /> },
+//   ],
+//   links: [
+//     {
+//       github: "https://github.com/SandeepJoshi111/BakeSpace",
+//       demo: "",
+//     },
+//   ],
+// },
