@@ -1,9 +1,8 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { portfolios } from "../../constant/portfolio";
 import { BsGithub } from "react-icons/bs";
-import { CiShare1 } from "react-icons/ci";
-
+import { IoIosArrowRoundBack } from "react-icons/io";
 function PortfolioDetails() {
   const { title } = useParams();
 
@@ -16,21 +15,17 @@ function PortfolioDetails() {
   console.log(portfolioItem);
   // If a portfolio item is found, display it
   return (
-    <section id="portfolio ">
+    <section className="mt-5">
       <div className="container portfolio__container">
-        <article className="">
-          <div className="h-[600px] flex items-center justify-center">
-            <img
-              src={portfolioItem.image}
-              alt={portfolioItem.title}
-              className="h-full w-full object-cover  rounded-3xl"
-            />
-          </div>
+        <Link to={"/"} className="flex items-center  btn">
+          <IoIosArrowRoundBack /> Back
+        </Link>
+        <article className="mb-20">
           <div className="flex justify-between mt-5">
-            <h1 className="text-[32px] text-[#4db5ff]">
+            <h1 className="text-[44px] text-[#4db5ff] text-center">
               {portfolioItem.title}
             </h1>
-            <div className="flex gap-5">
+            <div className="flex gap-5 ">
               <a
                 href={portfolioItem.links[0].github}
                 target="_blank"
@@ -39,19 +34,63 @@ function PortfolioDetails() {
               >
                 Code <BsGithub />
               </a>
-              {portfolioItem.links[0].demo && (
+            </div>
+          </div>
+          <h1 className="text-[30px] text-[#a5a5a5]">Introduction</h1>
+          <p className="text-[20px] mt-3 mb-10 text-justify">
+            {portfolioItem.introduction}
+          </p>
+
+          <div className="mockup-browser border bg-[#0d0f14]">
+            <div className="mockup-browser-toolbar">
+              {portfolioItem.links[0].demo ? (
                 <a
                   href={portfolioItem.links[0].demo}
                   target="_blank"
-                  id="portfolio-btn"
+                  className="input"
                   rel="noreferrer"
                 >
-                  Demo <CiShare1 />
+                  {portfolioItem.links[0].demo}
                 </a>
+              ) : (
+                <span className="input">Demo Not Available</span>
+              )}
+            </div>
+
+            <div className="flex justify-center bg-white h-[600px]">
+              {portfolioItem.links[0].demo ? (
+                <iframe
+                  src={portfolioItem.links[0].demo}
+                  title={portfolioItem.title}
+                  className="h-full w-full object-cover"
+                ></iframe>
+              ) : (
+                <video
+                  src={portfolioItem.video}
+                  title={portfolioItem.title}
+                  className="h-full w-full object-cover"
+                  controls
+                ></video>
               )}
             </div>
           </div>
-          <p className="mb-20">{portfolioItem.description}</p>
+          <h1 className="text-[30px] text-[#a5a5a5] mt-10">Tech Stack</h1>
+          <div className=" flex">
+            {portfolioItem.tools.map((tool, toolIndex) => (
+              <div className="tool__box " key={toolIndex}>
+                <p className="">
+                  {tool.name} {tool.icon}
+                </p>
+              </div>
+            ))}
+          </div>
+          <h1 className="text-[30px] text-[#a5a5a5] mt-10">Features</h1>
+          {portfolioItem.features.map((feature, index) => (
+            <li key={index} className="text-[20px]">
+              <span className="text-[#4db5ff]">{feature.featureTitle}:</span>{" "}
+              {feature.featureDesc}
+            </li>
+          ))}
         </article>
       </div>
     </section>
