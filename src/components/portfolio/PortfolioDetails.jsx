@@ -22,7 +22,7 @@ function PortfolioDetails() {
         </Link>
         <article className="mb-20">
           <div className="flex justify-between mt-5">
-            <h1 className="text-[44px] text-[#4db5ff] text-center">
+            <h1 className="text-[24px] md:text-[44px] text-[#4db5ff] text-center">
               {portfolioItem.title}
             </h1>
             <div className="flex gap-5 ">
@@ -36,8 +36,10 @@ function PortfolioDetails() {
               </a>
             </div>
           </div>
-          <h1 className="text-[30px] text-[#a5a5a5]">Introduction</h1>
-          <p className="text-[20px] mt-3 mb-10 text-justify">
+          <h1 className="text-[20px] md:text-[30px] text-[#a5a5a5]">
+            Introduction
+          </h1>
+          <p className="text-[16px] md:text-[20px] mt-3 mb-10 text-justify">
             {portfolioItem.introduction}
           </p>
 
@@ -74,19 +76,23 @@ function PortfolioDetails() {
               )}
             </div>
           </div>
-          <h1 className="text-[30px] text-[#a5a5a5] mt-10">Tech Stack</h1>
-          <div className=" flex">
+          <h1 className="text-[20px] md:text-[30px] text-[#a5a5a5] mt-10">
+            Tech Stack
+          </h1>
+          <div className=" flex flex-wrap gap-2">
             {portfolioItem.tools.map((tool, toolIndex) => (
-              <div className="tool__box " key={toolIndex}>
+              <div className="tool__box visible " key={toolIndex}>
                 <p className="">
                   {tool.name} {tool.icon}
                 </p>
               </div>
             ))}
           </div>
-          <h1 className="text-[30px] text-[#a5a5a5] mt-10">Features</h1>
+          <h1 className="text-[20px] md:text-[30px] text-[#a5a5a5] mt-10">
+            Features
+          </h1>
           {portfolioItem.features.map((feature, index) => (
-            <li key={index} className="text-[20px]">
+            <li key={index} className="text-[16px] md:text-[20px]">
               <span className="text-[#4db5ff]">{feature.featureTitle}:</span>{" "}
               {feature.featureDesc}
             </li>
